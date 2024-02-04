@@ -1,0 +1,15 @@
+.rectangle {
+    width: 80%;
+    min-height: 70px;
+    background-color: #355592;
+    padding: 10px;
+    margin-top:  5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+
+}
