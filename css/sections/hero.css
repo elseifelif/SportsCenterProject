@@ -1,0 +1,215 @@
+#hero {
+    position: relative;
+    width: 100%;
+    height: 65%;
+    background-color: black;
+}
+
+#hero img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+ 
+}
+
+#hero .powerfull {
+    position: absolute;
+    bottom: 75%;
+    left: 20% !important;
+    
+
+}
+
+#hero h1 {
+    position: absolute;
+    left: 20%;
+    bottom: 40%;
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+
+}
+
+#hero h1 div {
+   
+    display: block;
+}
+
+
+#hero h5 {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    bottom: 12%;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-bottom: 15px; /* h5 ile butonlar arasında boşluk */
+
+}
+
+#hero .hero-bottom{
+    position: absolute;
+    left: 20%;
+    bottom: 20px;
+    display: flex;
+    border-radius: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Butonlar arasında boşluk */
+}
+
+#hero .hero-bottom .btn-primary{
+
+    border-radius: 0px;
+    width: 100px;
+}
+
+#hero .hero-bottom .btn-outline-secondary{
+
+    border-radius: 0px;
+    width: 100px;
+}
+
+#hero .hero-top .btn-primary{
+    position: absolute;
+    display: flex;
+    border-radius: 0px;
+}
+
+
+#hero-after {
+    position: relative;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding-right: 0%;
+    background-color: rgba(213, 237, 237, 0.799);
+    border: 0px;
+    align-items: center;
+   
+}
+
+#hero-after .card{
+    position: relative;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background-color: rgba(255, 255, 255, 0.799);
+    border: 0px;
+    align-items: center;
+   
+}
+
+#hero-after .container {
+    max-width: 1200px;
+  }
+
+
+
+#hero h5 {
+    margin-bottom: 15px; /* h5 ile butonlar arasında boşluk */
+}
+
+
+
+@media (max-width:576px) {
+    #hero-after-div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #hero-after .card {
+        margin: 0px 0px 20px 0px;
+        padding: 10px 0px 0px 0px;
+        width: 100%;
+    }
+
+    #hero .hero-bottom {
+        flex-direction: column;
+    }
+
+    #hero .signup-button, #hero .details-button {
+        display: block;
+        width: 100% !important;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    #hero h1 div:nth-child(1), 
+    #hero h1 div:nth-child(2) { 
+        display: inline; 
+    }
+
+    #hero h1 {
+        position: absolute;
+        font-size: 40px; 
+        bottom: 45%;
+    }
+    #hero {
+        position: relative;
+        width: 100%;
+        height: 90vh;
+        background-color: black;
+    }
+    
+    #hero img {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 77%;
+        object-fit: contain;
+     
+    }
+
+    #hero .powerfull {
+        position: absolute;
+        bottom: 65% !important;
+        left: 20% !important;
+        
+    }
+
+    #hero h5 {
+        bottom: 22% !important;
+        margin-bottom: 15px !important;
+    }
+
+    #hero .powerfull {
+        position: absolute;
+        bottom: 77% !important;
+        
+    
+    }
+    #hero h1 {
+        position: absolute;
+        left: 20%;
+        bottom: 50%;
+        color: white;
+        font-size: 48px;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+    
+    }
+
+    
+
+   
+}
+
+@media (min-width: 769px) { 
+    .hero-top {
+        align-items: center !important; 
+    }
+
+    .hero_text {
+        margin-top: 10%;
+
+    }
+}

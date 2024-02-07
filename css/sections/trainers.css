@@ -1,0 +1,293 @@
+#trainer-photos  {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:  15%;
+    margin-right: 15%;
+   
+}
+
+#trainer-photos {
+    position: relative;
+
+}
+
+#trainer-photos #photo1{
+    position: relative;
+
+}
+
+#trainer-photos #photo2{
+    position: relative;
+
+}
+
+#trainer-photos #photo3{
+    position: relative;
+
+}
+
+
+#photo1::after, #photo1::before {
+    content: '';
+    position: absolute;
+    background-color: #355592;
+}
+
+/* Üst çubuk */
+#photo1::before {
+    width: 60px;
+    height: 6px;
+    top: -6px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Alt çubuk */
+#photo1::after {
+    width: 60px;
+    height: 6px;
+    bottom: -6px; 
+    left: 50%;
+    transform: translateX(-50%);
+   
+
+}
+
+#photo2::after, #photo2::before {
+    content: '';
+    position: absolute;
+    background-color: #355592;
+}
+
+/* Üst çubuk */
+#photo2::before {
+    width: 60px;
+    height: 6px;
+    top: -6px; 
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+/* Alt çubuk */
+#photo2::after {
+    width: 60px;
+    height: 6px;
+    bottom: -6px; 
+    left: 50%;
+    transform: translateX(-50%);
+   
+}
+
+#photo3::after, #photo3::before {
+    content: '';
+    position: absolute;
+    background-color: #355592;
+}
+
+/* Üst çubuk */
+#photo3::before {
+    width: 60px;
+    height: 6px;
+    top: -6px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Alt çubuk */
+#photo3::after {
+    width: 60px;
+    height: 6px;
+    bottom: -6px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#trial1 {
+    position: relative;
+    
+}
+
+#trial1::after, #trial1::before {
+    content: '';
+    position: absolute;
+    background-color: #355592;
+}
+
+/* Sağ ve sol çubuklar */
+#trainer-photos #trial1::after {
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 60px;
+    background-color: #355592;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -6px; /* Resmin sol kenarına hizalı */
+}
+
+#trainer-photos #trial1::before {
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 60px;
+    background-color: #355592;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -6px; /* Resmin sağ kenarına hizalı */
+}
+
+#trial2 {
+    position: relative;
+}
+
+#trial2::after, #trial2::before {
+    content: '';
+    position: absolute;
+    background-color: #355592;
+}
+
+/* Sağ ve sol çubuklar */
+
+#trainer-photos #trial2::after {
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 60px;
+    background-color: #355592;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -6px; /* Resmin sol kenarına hizalı */
+}
+
+#trainer-photos #trial2::before {
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 60px;
+    background-color: #355592;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -6px; /* Resmin sağ kenarına hizalı */
+}
+
+
+#trial3 {
+    position: relative;
+}
+
+#trial3::after, #trial3::before {
+    content: '';
+    position: absolute;
+    background-color: #355592;
+ 
+}
+
+/* Sağ ve sol çubuklar */
+#trainer-photos #trial3::after {
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 60px;
+    background-color: #355592;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -6px; /* Resmin sol kenarına hizalı */
+}
+
+#trainer-photos #trial3::before {
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 60px;
+    background-color: #355592;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -6px; /* Resmin sağ kenarına hizalı */
+}
+
+#trainer-photos #trial3:hover::before {
+    height: 160px;
+
+}
+
+#trainer-photos #trial3:hover::after {
+    height: 160px;
+   
+}
+
+#trainer-photos #trial2:hover::before {
+    height: 160px;
+}
+
+#trainer-photos #trial2:hover::after {
+    height: 160px;
+}
+#trainer-photos #trial1:hover::before {
+    height: 160px;
+}
+
+#trainer-photos #trial1:hover::after {
+    height: 160px;
+}
+
+.trainer-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+#photo1:hover .trainer-name {
+    visibility: visible;
+    opacity: 1;
+}
+
+#photo2:hover .trainer-name {
+    visibility: visible;
+    opacity: 1;
+}
+
+#photo3:hover .trainer-name {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    #trainer-photos {
+    justify-content: center !important;
+    max-width: 350px;
+    margin-bottom: 20px !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    }
+
+    #photo1 {
+        margin-bottom: 50px;
+        padding-top: 0% !important; 
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    
+    }
+
+    #photo2 {
+        margin-bottom: 50px;
+        padding-top: 0% !important; 
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    }
+
+    #photo3 {
+        margin-bottom: 50px;
+        padding-top: 0% !important; 
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    }
+
+}

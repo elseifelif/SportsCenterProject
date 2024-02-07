@@ -1,0 +1,90 @@
+#our_classes{
+    position: relative;
+    width: 100%;
+}
+#class-img {
+
+ 
+    min-width: 250px !important;
+
+
+}
+
+
+#class-types .btn-primary:hover {
+    background-color: orange !important;
+    border-color: orange !important;
+}
+
+
+@media (max-width:576px) {
+
+    #class-types {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    
+
+    }
+
+    #class-types-div .btn{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-bottom: 20px !important;
+        padding: 10px 20px 10px 20px !important;
+
+    }
+
+    #yoga {
+
+        border-radius: 5px !important;
+        margin-left: 50px !important;
+     
+    }
+
+    #solo {
+            
+            border-radius: 5px !important;
+            margin-left: 50px !important;
+    }
+
+    #group {
+            
+            border-radius: 5px !important;
+    }
+
+    #stretching {
+            
+            border-radius: 5px !important;
+
+    }
+
+    #class-details {
+
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+       
+    
+    }
+
+    #class-img {
+
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        min-width: 350px !important;
+        max-width: 350px !important;
+
+
+    }
+
+
+
+
+}

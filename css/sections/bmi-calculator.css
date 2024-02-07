@@ -1,0 +1,42 @@
+::-webkit-input-placeholder {
+    font-size: 13px; 
+}
+:-moz-placeholder {
+    font-size: 13px;
+}
+::-moz-placeholder {
+    font-size: 13px;
+}
+:-ms-input-placeholder {
+    font-size: 13px;
+}
+
+#bmi-calc .form-control {
+    border-radius: 0px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center; 
+    gap: 5px;
+    margin-bottom: 30px;
+}
+#bmiTriangle {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    content: "";
+    top: 100%;
+    left: 6%;
+    background-color: orange;
+    clip-path: polygon(100% 100%, 0 100%, 50% 0);
+    
+}
+
+.bmiTriangle1 {
+    position: relative;
+    width: 400px !important;
+    
+   
+}
+

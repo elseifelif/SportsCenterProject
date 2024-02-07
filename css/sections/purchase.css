@@ -1,0 +1,25 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-card .card-body  {
+    flex-grow: 1;
+  }
+  
+  @media (max-width: 768px) {
+    .card-img-top {
+  
+      width: 350px;
+
+ 
+    }
+
+    #purchase .col-md-3 {
+   
+        margin-bottom: 20px !important;
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+    }
+  
+  }
