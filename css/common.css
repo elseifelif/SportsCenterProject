@@ -1,0 +1,22 @@
+:root {
+    --font-color-1: #ffffff;
+    --font-color-2: #000000;
+    --background-color-1: #000000;
+    --background-color-2: #ffffff;
+    --border-color-1: #ffffff;
+    --border-color-2: #000000;
+}
+
+
+div.titles::after {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    content: '';
+    height: 8px;
+    width: 60px;
+    display: block;
+    clear: both;
+    background-color: orange;
+    border-radius: 4px; 
+}

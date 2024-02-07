@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+    .contact-us-iframe {
+        height: 400px;
+    }
+}
+    @media (min-width: 768px) {
+        .contact-us-iframe {
+            min-width: 300px;
+        }
+
+
+}
+
+@media (min-width: 576px) {
+    .contact-us-iframe {
+        min-width: 250px;
+    }
+
+}

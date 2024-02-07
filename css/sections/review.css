@@ -1,0 +1,65 @@
+.rectangle {
+    position: relative;
+    width: 80%;
+    min-height: 70px;
+    background-color: #355592;
+    padding: 10px;
+    margin-top:  5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+
+}
+
+.rectangle::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid #3556929f;
+    top: 100%;
+    right: 0;
+}
+
+
+
+.resim1 {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 30px solid #3556929f;
+    top: 100%;
+    left: 0;
+   
+}
+
+.resim2 {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 30px solid #3556929f;
+    top: 100%;
+    left: 0;
+   
+}
+
+@media (max-width: 576px) {
+    .rectangle {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 15%;
+    }
+}

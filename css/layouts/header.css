@@ -1,0 +1,147 @@
+#header {
+    height: 75px;
+    background-color: transparent !important;
+    transition: background-color 0.5s ease;
+}
+
+#header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#header .logo img {
+    display: block;
+    right: 10% !important;
+}
+
+#navbar {
+    padding: 0;
+    background-color: transparent; 
+    padding: 0.5rem 1rem;
+  
+}
+
+#navbar ul {
+padding: 0;
+margin: 0;
+display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+
+#navbar li {
+    position: relative;
+    padding: 6px 10px;
+    
+}
+
+#navbar li a {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 7px;
+    cursor: pointer;
+    
+}
+
+.navbar-scrolled {
+    background-color: #355592 !important;
+    transition: background-color 0.3s;
+  }
+  
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg>") !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url('images/menu-btn.png');
+}
+
+
+.navbar-brand img {
+    max-width: 150px;
+
+}
+
+#header.navbar-scrolled {
+    background-color: #355592 !important;
+    transition: background-color 0.5s ease-in-out;
+}
+
+
+.navbar-nav .nav-link {
+    color: white; 
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+@media (max-width: 576px) {
+    #header .logo img {
+        display: block;
+        margin: 0px 0px 0 0px;
+    }
+    #navbar {
+        padding: 0;
+        margin: 0px 0px 0 0px;
+        background-color: #355592; 
+        padding: 0.5rem 1rem;
+    
+    }
+    #navbar ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #355592;
+    
+    }
+    
+    #navbar li {
+        position: relative;
+        padding: 6px 10px;
+        
+    }
+
+    .navbar-nav .nav-link {
+        color: white; 
+        background-color: #355592;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: .25rem; 
+        padding: .5rem 1rem; 
+        margin: 0 5px;
+
+    }
+    
+    #navbar li a {
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        padding: 7px;
+        cursor: pointer;
+        
+    }
+    
+    .navbar .nav-link.btn {
+        padding: .5rem 1rem;
+        margin: 0 5px;
+        border-radius: .25rem;
+        text-align: center;
+    }
+}
+
+@media (min-width: 300px) {
+    .navbar .container-fluid {
+        padding-left: 20%;
+    }
+}
+
